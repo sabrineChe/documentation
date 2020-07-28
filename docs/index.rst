@@ -14,7 +14,7 @@ Contents:
 
    *
 
-.. note:: This documentation is not complete, yet.
+.. note:: This documentation is not complete, yet. Build it.
             
 
 Indices and tables
