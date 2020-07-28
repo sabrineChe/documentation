@@ -3,16 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Read the Docs Template's documentation!
+Welcome to KIT Data Manager Repository Platform Documentation
 ==================================================
 
-Contents:
+Collection API
+--------------
+
+The Collection API is ...
 
 .. toctree::
    :maxdepth: 2
-   :glob:
 
-   *
+   collection/intro
+   collection/install
+   collection/quickstart
 
 .. note:: This documentation is not complete, yet. Build it.
             
