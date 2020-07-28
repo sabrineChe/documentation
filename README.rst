@@ -1,27 +1,13 @@
-Template
+The KIT Data Manager Repository Platform
 ========
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
-
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
+KIT Data Manager is a Research Data Repository Platform consequently following state-of-the-art recommendations and standards for managing research data in a FAIR way.  
 
 Features
 --------
 
 - Be awesome
 - Make things faster
-
-Installation
-------------
-
-Install $project by running:
-
-    install project
 
 Contribute
 ----------
@@ -33,9 +19,9 @@ Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+We have a mailing list located at: webmaster@datamanager.kit.edu
 
 License
 -------
 
-The project is licensed under the BSD license.
+The project is licensed under the Apache 2.0 license
