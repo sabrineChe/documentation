@@ -16,22 +16,12 @@ regard to the recommendation. As some aspects of Collection API are not clearly
 defined, the implementation contains some fixes [FIX], additions [ADD] and
 restrictions [RES]:
 
-* [FIX] Return type inconsistencies have been fixed, e.g. in
-/collections/{id}/members/{mid}.
-* [FIX] Delete operations return status 204 (NO_CONTENT) according to the
-HTTP specification.
-* [FIX] Delete operations are realized idempotent following the HTTP
-specification. This means, that DELETE can be issued multiple times to a
-resource and returns HTTP 204 in all cases.
-* [FIX] Collection operations allow navigation the same way all other
-operations do, e.g. via prev and next links.
-* [RES] Listing a collection recursively does not consider the sorting of child
-elements.
-* [RES] A recursive listing of a collection will also contain member items of
-expanded collections.
-* [RES] There is currently no build-in PID support. If no PID are provided with
-a collection or member, a UUID is assigned.
+* [FIX] Return type inconsistencies have been fixed, e.g. in /collections/{id}/members/{mid}.
+* [FIX] Delete operations return status 204 (NO_CONTENT) according to the HTTP specification.
+* [FIX] Delete operations are realized idempotent following the HTTP specification. This means, that DELETE can be issued multiple times to a resource and returns HTTP 204 in all cases.
+* [FIX] Collection operations allow navigation the same way all other operations do, e.g. via prev and next links.
+* [RES] Listing a collection recursively does not consider the sorting of child elements.
+* [RES] A recursive listing of a collection will also contain member items of expanded collections.
+* [RES] There is currently no build-in PID support. If no PID are provided with a collection or member, a UUID is assigned.
 * [ADD] Integrated ETag support in order to avoid concurrent modifications.
-* [ADD] Navigation through a result set is realized using default Spring
-pagination, e.g. supporting page and size query parameters. The cursors
-(next and prev) of a result set are pointing to the next/prev page link.
+* [ADD] Navigation through a result set is realized using default Spring pagination, e.g. supporting page and size query parameters. The cursors (next and prev) of a result set are pointing to the next/prev page link.
