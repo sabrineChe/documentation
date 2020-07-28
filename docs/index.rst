@@ -19,10 +19,13 @@ Collection API
 ==============
 
 The Collection API is proposed by the RDA Recommendation on Research Data
-Collections doi: [10.15497/RDA00022](http://doi.org/10.15497/RDA00022). It can be used for building collections of digital
+Collections doi: `10.15497/RDA00022`_. It can be used for building collections of digital
 objects independent from any repository in order to facilitate data interoperability,
 reuse and make collections actionable to be able to cope with ever increasing
 amounts and volumes of data. 
+
+.. _10.15497/RDA00022: http://doi.org/10.15497/RDA00022
+
 
 .. toctree::
    :caption: Collection API
