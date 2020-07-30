@@ -29,7 +29,6 @@ amounts and volumes of data.
 
 .. toctree::
    :caption: Collection API
-   :hidden:
    :maxdepth: 2
 
    collection/intro
