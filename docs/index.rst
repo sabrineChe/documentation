@@ -33,7 +33,7 @@ amounts and volumes of data.
    :maxdepth: 2
 
    collection/intro
-   collection/install
+   collection/installation
    collection/quickstart
 
 
