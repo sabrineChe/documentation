@@ -38,6 +38,10 @@ amounts and volumes of data.
 
 
 :doc:`collection/intro`
-    A quick overview of the Collection API.
+    A short overview of the Collection API.
+:doc:`collection/installation`
+    Installation instructions.
+:doc:`collection/quickstart`
+    Steps towards realizing an example use case.
     
 .. note:: This documentation is not complete, yet. Build it.
