@@ -3,10 +3,10 @@ Installation
 ============
 
 Prerequisites:
-* docker (tested with 19.03.8)
+| * docker (tested with 19.03.8).
 
-You can create an instance of the collection-api service by running docker:
-$ docker run -d -p 8080:8080 kitdm/collection-api:latest
+| You can create an instance of the collection-api service by running docker:
+| $ docker run -d -p 8080:8080 kitdm/collection-api:latest
 
 .. code-block:: console
   Unable to find image 'kitdm/collection-api:latest' locally
