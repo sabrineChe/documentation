@@ -20,3 +20,5 @@ Prerequisites:
   9d647f502a07: Pull complete
   [...]
   Status: Downloaded newer image for kitdm/collection-api:latest
+  
+As soon as the microservice is started, you can browse to http://localhost:8070/swagger-ui.html in order to use available REST APIs.
