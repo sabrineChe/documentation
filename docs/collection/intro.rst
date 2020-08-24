@@ -1,20 +1,8 @@
-============
-Introduction
-============
+===========================
+1.	What is Collection API?
+===========================
 
-The Collection API is proposed by the RDA Recommendation on Research Data
-Collections doi: 10.15497/RDA00022. It can be used for building collections of digital
-objects independent from any repository in order to facilitate data interoperability,
-reuse and make collections actionable to be able to cope with ever increasing
-amounts and volumes of data. An interface specification for CRUD (Create, Read,
-Update and Delete) operations is provided to enable client-server interaction with
-particular observance of persistent identification. The documentation of the different
-REST APIs is available under http://rdacollectionswg.github.io/apidocs/#/. Moreover,
-a JAVA implementation of the RDA Recommendation is provided by Steinbuch
-Centre for Computing (SCC) as a Spring Boot-based Microservice with a complete
-regard to the recommendation. As some aspects of Collection API are not clearly
-defined, the implementation contains some fixes [FIX], additions [ADD] and
-restrictions [RES]:
+A collection is a digital object which bears a unique identifier and binds a finite number of digital objects together, which have common concerns (RDA Data Foundation and Terminology Interest Group’s term definition tool, RDA collection recommendation). The collection API is an interface specification for CRUD (Create, Read, Update and Delete) operations on collections in order to enable client-server interaction with particular observance of persistent identification. It can be used for building collections of digital objects independent from any repository in order to facilitate data interoperability, reuse and make collections actionable to be able to cope with ever increasing amounts and volumes of data. The Collection API has been proposed by the RDA Recommendation on Research Data Collections doi: 10.15497/RDA00022. The documentation of the different REST APIs is available under http://rdacollectionswg.github.io/apidocs/#/.  Moreover, a JAVA implementation of the RDA Recommendation is provided by Steinbuch Centre for Computing (SCC) as a Spring Boot-based Microservice with a complete regard to the recommendation. As some aspects of Collection API are not clearly defined, the implementation contains some fixes [FIX], additions [ADD] and restrictions [RES]:
 
 * [FIX] Return type inconsistencies have been fixed, e.g. in /collections/{id}/members/{mid}.
 * [FIX] Delete operations return status 204 (NO_CONTENT) according to the HTTP specification.
