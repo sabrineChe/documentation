@@ -9,7 +9,8 @@ Prerequisites:
 | You can create an instance of the collection-api service by running docker:
 | $ docker run -d -p 8080:8080 kitdm/collection-api:latest
 
-.. code-block:: console
+.. code-block:: bash
+
   Unable to find image 'kitdm/collection-api:latest' locally
   latest: Pulling from kitdm/collection-api
   3192219afd04: Pull complete
