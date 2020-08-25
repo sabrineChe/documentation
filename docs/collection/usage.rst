@@ -7,8 +7,9 @@
 In this section, an example of Collection API is introduced. Let’s assume we want to publish a data set of an experiment. The set includes raw data, implementation and results. These collections are sub-collections of the “experiment” collection. The “rawData” collection includes one item called “images”, which represents a set of images used in the experiment and which is stored in a research data repository. As it exists two implementations of the experiment based on two different methods, the “implementation” collection includes two items “method1” and “method2”, which are stored in two Git repositories. The “result” collection includes two sub-collections “result1” and “result2”, which includes the results of the experiment based on both methods in form of documents such as images, Excel sheets, etc. Moreover, the user wants to store the item of the method-implementation in the results sub-collections to be able to check on which implementation the results are generated. As the Collection API offers the possibility to share items between different collections, each result sub-collection includes also the implementation item of the used method. The figure below describes how the collections and their items should look like.
 
 .. figure:: images/example.png
+   :align: center
    
-   Example.
+   Example
 
 In the next sections, we will describe how to build up the above example using the Collection API service.
 
