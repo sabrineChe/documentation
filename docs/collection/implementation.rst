@@ -6,5 +6,5 @@ implementation. The service contains various REST APIs responsible for interacti
 Moreover, the service offers a graphical web frontend in order to visualize managed collections, collection items and relationships between them. The web frontend 
 is available under http://{hostname}:{port}/static/overview.html. In addition, an intuitive graphical user interface will be developed in the future by SCC.
 
-.. image:: architecture.png
+.. image:: images/architecture.png
    :width: 800
