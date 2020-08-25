@@ -8,6 +8,7 @@ In this section, an example of Collection API is introduced. Let’s assume we w
 
 .. figure:: images/example.png
    :width: 700
+   
    Example
 
 In the next sections, we will describe how to build up the above example using the Collection API service.
