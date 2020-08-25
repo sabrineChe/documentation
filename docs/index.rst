@@ -34,6 +34,7 @@ amounts and volumes of data.
 
    collection/intro
    collection/installation
+   collection/implementation
    collection/quickstart
 
 
@@ -41,6 +42,8 @@ amounts and volumes of data.
     A short overview of the Collection API.
 :doc:`collection/installation`
     Installation instructions.
+:doc:`collection/implementation`
+    illustration of the service architecture.
 :doc:`collection/quickstart`
     Steps towards realizing an example use case.
     
