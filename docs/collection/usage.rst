@@ -16,7 +16,7 @@ In the next sections, we will describe how to build up the above example using t
 ****************************
 4.2 Creation of collections
 ****************************
-Using the POST operation http://localhost:8070/api/v1/collections, we have the possibility to create collections one by one or all together. As an input, a JSON object including the collection attributes is needed. In the above described example, six collections should be created. Figure 5 below includes an example of creating the “experiment” collection and the response of this operation is represented in the Figure 6. The non-given attributes are filled out with the default values. Moreover, the created date is automatically generated. As the experiment collection is not an item of another collection and has no items yet, the value of both attributes “memberOf” and “members” is an empty list. The five remaining collections “rawData”, “implementation”, “results”, “result1” and “result2” can be created in the same way.
+Using the POST operation http://localhost:8070/api/v1/collections, we have the possibility to create collections one by one or all together. As an input, a JSON object including the collection attributes is needed. In the above described example, six collections should be created. Figure 5 below includes an example of creating the “experiment” collection and the response of this operation is represented in Figure 6. The non-given attributes are filled out with the default values. Moreover, the created date is automatically generated. As the experiment collection is not an item of another collection and has no items yet, the value of both attributes “memberOf” and “members” is an empty list. The five remaining collections “rawData”, “implementation”, “results”, “result1” and “result2” can be created in the same way.
 
 .. figure:: images/experimentCollectionCreation.png
    :width: 700
@@ -33,17 +33,21 @@ Using the POST operation http://localhost:8070/api/v1/collections, we have the p
 ********************************
 4.3 Creation of sub-collections
 ********************************
-In order to add the relationship between “experiment” collection and other collections, we should add the sub-collections as items to the parent collection using the following POST operation: http:// localhost:8070/api/v1/collections/{collection_identifier}/members. To run this operation, “id”, “location” and “datatype” are mandatory fields. Figure 9 includes an example of the JSON object needed while adding “rawData” collection to the “experiment” collection.
+In order to add the relationship between “experiment” collection and other collections, we should add the sub-collections as items to the parent collection using the following POST operation: http:// localhost:8070/api/v1/collections/{collection_identifier}/members. To run this operation, “id”, “location” and “datatype” are mandatory fields. Figure 7 includes an example of the JSON object needed while adding “rawData” collection to the “experiment” collection.
 
-.. image:: images/addRawDataSubcollection.png
+.. figure:: images/addRawDataSubcollection.png
    :width: 700
    :alt: Add „rawData“ as a sub-collection
+   
+   Figure 7: Add „rawData“ as a sub-collection
 
-After executing this operation, “rawData” collection is added to the member list of the “experiment” collection as shown in Figure 10, which includes a response of the GET collection operation.
+After executing this operation, “rawData” collection is added to the member list of the “experiment” collection as shown in Figure 8, which includes a response of the GET collection operation.
 
-.. image:: images/getExperimentCollection.png
+.. figure:: images/getExperimentCollection.png
    :width: 700
    :alt: Get „experiment“ collection
+   
+   Figure 8: Get „experiment“ collection
 
 The remaining collections can be added the same way as sub-collections to the “experiment” and “results” collection.
 
@@ -51,26 +55,34 @@ The remaining collections can be added the same way as sub-collections to the �
 4.4	Creation of collection items
 *************************************
 
-In order to create a new member and add it to a collection, the same POST operation mentioned in 4.3 should be performed: http://localhost:8070/api/v1/collections/{collection_identifier}/members. Figure 11 includes an example of adding item “images” to collection “rawData”.
+In order to create a new member and add it to a collection, the same POST operation mentioned in 4.3 should be performed: http://localhost:8070/api/v1/collections/{collection_identifier}/members. Figure 9 includes an example of adding item “images” to collection “rawData”.
 
-.. image:: images/createImagesItem.png
+.. figure:: images/createImagesItem.png
    :width: 700
    :alt: Creation of „images“ item
+   
+   Figure 9: Creation of „images“ item
 
-Moreover, item “method1” is a shared item of two collections and Figure 12 includes an example of a JSON object, which should be added to both collections using the POST operation. Only the identifier of the collection, to which the item is added, should be modified.
+Moreover, item “method1” is a shared item of two collections and Figure 10 includes an example of a JSON object, which should be added to both collections using the POST operation. Only the identifier of the collection, to which the item is added, should be modified.
 
-.. image:: images/addMethod1ToImplementation.png
+.. figure:: images/addMethod1ToImplementation.png
    :width: 700
    :alt: Add “method1” item to the “implementation” collection
+   
+   Figure 10: Add “method1” item to the “implementation” collection
 
-Other REST APIS are available such as listing collections and items, updating or removing them. Moreover, to access the visualization of the above created collections, items and relationships between them, you can browse to http://localhost:8070/static/overview.html. Figure 13 includes the example overview. Blue ovals represent collections and orange ones represent member items.
+Other REST APIS are available such as listing collections and items, updating or removing them. Moreover, to access the visualization of the above created collections, items and relationships between them, you can browse to http://localhost:8070/static/overview.html. Figure 11 includes the example overview. Blue ovals represent collections and orange ones represent member items.
 
-.. image:: images/overview.png
+.. figure:: images/overview.png
    :width: 700
    :alt: Overview
+   
+   Figure 11: Overview
 
-To have more information about the collections or items, the user has just to click on the oval. Figure 14 includes an example of a collection description. Moreover, you can search a collection or an item by writing its identifier in the search box.
+To have more information about the collections or items, the user has just to click on the oval. Figure 12 includes an example of a collection description. Moreover, you can search a collection or an item by writing its identifier in the search box.
 
-.. image:: images/collectionDescription.png
+.. figure:: images/collectionDescription.png
    :width: 700
    :alt: Collection description
+   
+   Figure 12: Collection description
