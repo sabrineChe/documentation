@@ -7,4 +7,9 @@ Moreover, the service offers a graphical web frontend in order to visualize mana
 is available under http://{hostname}:{port}/static/overview.html. In addition, an intuitive graphical user interface will be developed in the future by SCC.
 
 .. image:: images/architecture.png
-   :width: 800
+   :width: 600
+   
+   
++---------+---------+-----------+
+| 1       |  2      |  3        |
++---------+---------+-----------+
