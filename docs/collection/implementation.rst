@@ -5,5 +5,5 @@ The architecture of the Collection API service is illustrated in Figure 1. The b
 implementation. The service contains various REST APIs responsible for interacting with users and thus enabling collections and collection items management. 
 Moreover, the service offers a graphical web frontend in order to visualize managed collections, collection items and relationships between them. The web frontend 
 is available under http://{hostname}:{port}/static/overview.html. In addition, an intuitive graphical user interface will be developed in the future by SCC.
-.. image:: docs/collection/architecture.png
+.. image:: documentation/docs/collection/architecture.png
    :width: 600
