@@ -17,11 +17,11 @@ In the next sections, we will describe how to build up the above example using t
 ****************************
 Using the POST operation http://localhost:8070/api/v1/collections, we have the possibility to create collections one by one or all together. As an input, a JSON object including the collection attributes is needed. In the above described example, six collections should be created. The figure below includes an example of creating the “experiment” collection and the response of this operation is represented in the next figure below. The non-given attributes are filled out with the default values. Moreover, the created date is automatically generated. As the experiment collection is not an item of another collection and has no items yet, the value of both attributes “memberOf” and “members” is an empty list. The five remaining collections “rawData”, “implementation”, “results”, “result1” and “result2” can be created in the same way.
 
-.. image:: images/experiementCollectionCreation.png
+.. image:: images/experimentCollectionCreation.png
    :width: 700
    :alt: Creation of the experiment collection 
 
-.. image:: images/experiementCollectionResponse.png
+.. image:: images/experimentCollectionResponse.png
    :width: 700
    :alt: Response of the POST experiment collection
   
