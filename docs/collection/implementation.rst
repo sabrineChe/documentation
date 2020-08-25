@@ -8,20 +8,3 @@ is available under http://{hostname}:{port}/static/overview.html. In addition, a
 
 .. image:: images/architecture.png
    :width: 700
-
-
-
-+--------------------------------------+
-| serviceFeatures                      |
-+======================================+
-| | providesCollectionPids: false      |
-| | collectionPidProviderType: null    |
-| | enforcesAccess: false              |
-| | supportsPagination: true           |
-| | asynchronousActions: false         |
-| | ruleBasedGeneration: false         |
-| | maxExpansionDepth: -1              |
-| | providesVersioning: false          |
-| | supportedCollectionOperations: null|
-| | supportedModelTypes: null          |
-+--------------------------------------+
