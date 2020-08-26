@@ -138,30 +138,30 @@ The service offers the possibility to create and manage collections and collecti
 
 - Collection Item: In order to create a new collection item, the following attributes are expected to be given by the user:
 
-+----------------------+------------------------------+---------------------+---------------+
-| Property Name        | Description                  | Mandatory/Optional  | Default Value |
-+======================+==============================+=====================+===============+
-| id                   | identifier for the member    | optional            | UUID          | 
-+----------------------+------------------------------+---------------------+---------------+
-| location             | location at which the item   | mandatory           | –             |
-|                      | data can be retrieved        |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| description          | human readable description   | optional            | null          |
-+----------------------+------------------------------+---------------------+---------------+
-| datatype             | URI of the data type of this | mandatory           | –             |
-|                      | item. If the value of the    |                     |               |
-|                      | “restrictedToType” of the    |                     |               |
-|                      | collection is not null, then |                     |               |
-|                      | the datatype of the member   |                     |               |
-|                      | should have the same value as|                     |               |
-|                      | the “restrictedToType”       |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| ontology             | URI of an ontology model     | optional            | null          |
-|                      | class that applies to this   |                     |               |
-|                      | item                         |                     |               |
-+----------------------+------------------------------+---------------------+---------------+
-| mappings             | Collection item metadata     | optional            | true          |
-+----------------------+------------------------------+---------------------+---------------+
++----------------------+---------------------------------+---------------------+---------------+
+| Property Name        | Description                     | Mandatory/Optional  | Default Value |
++======================+=================================+=====================+===============+
+| id                   | identifier for the member       | optional            | UUID          | 
++----------------------+---------------------------------+---------------------+---------------+
+| location             | location at which the item      | mandatory           | –             |
+|                      | data can be retrieved           |                     |               |
++----------------------+---------------------------------+---------------------+---------------+
+| description          | human readable description      | optional            | null          |
++----------------------+---------------------------------+---------------------+---------------+
+| datatype             | URI of the data type of this    | mandatory           | –             |
+|                      | item. If the value of the       |                     |               |
+|                      | “restrictedToType” of the       |                     |               |
+|                      | collection is not null, then    |                     |               |
+|                      | the datatype of the member      |                     |               |
+|                      | should have the same value as   |                     |               |
+|                      | the “restrictedToType”          |                     |               |
++----------------------+---------------------------------+---------------------+---------------+
+| ontology             | URI of an ontology model        | optional            | null          |
+|                      | class that applies to this      |                     |               |
+|                      | item                            |                     |               |
++----------------------+---------------------------------+---------------------+---------------+
+| mappings             | Collection item metadata        | optional            | true          |
++----------------------+---------------------------------+---------------------+---------------+
 
 1. Mappings: include the following attributes:
 
