@@ -86,3 +86,5 @@ To have more information about the collections or items, the user has just to cl
    :alt: Collection description
    
    Figure 12: Collection description
+
+In order to build the above described example, a short tutorial is available under https://www.katacoda.com/kitdm/scenarios/collection-api
