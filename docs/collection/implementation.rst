@@ -71,7 +71,7 @@ The service offers the possibility to create and manage collections and collecti
 +---------------------+------------------------------+---------------------+---------------+
 | Property Name       | Description                  | Mandatory/Optional  | Default Value |
 +=====================+==============================+=====================+===============+
-| id                  | identifier of the collection | [*]_                | –             | 
+| id                  | identifier of the collection | (*)                 | –             | 
 |                     | capabilities                 |                     |               |
 +---------------------+------------------------------+---------------------+---------------+
 | isOrdered           | identifies if the collection | optional            | false         |
@@ -100,17 +100,17 @@ The service offers the possibility to create and manage collections and collecti
 |                     | of the collection            |                     |               |
 +---------------------+------------------------------+---------------------+---------------+
 
-.. [*] This value is automatically generated. 
+(*) This value is automatically generated. 
 
 2. Collection properties: include collection’s metadata.
 
 +----------------------+------------------------------+---------------------+---------------+
 | Property Name        | Description                  | Mandatory/Optional  | Default Value |
 +======================+==============================+=====================+===============+
-| id                   | identifier of the collection | [-]_                | –             | 
+| id                   | identifier of the collection | (*)                 | –             | 
 |                      | properties                   |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
-| dateCreated          | the date the collection was  | [-]_                | –             |
+| dateCreated          | the date the collection was  | (*)                 | –             |
 |                      | created                      |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
 | ownership            | identifies the owner of the  | optional            | null          |
@@ -126,7 +126,7 @@ The service offers the possibility to create and manage collections and collecti
 |                      | collection has access        |                     |               |
 |                      | restrictions                 |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
-| memberOf             | includes a list of collection| [-]_                | –             |
+| memberOf             | includes a list of collection| (*)                 | –             |
 |                      | identifiers to which this    |                     |               |
 |                      | collection belongs           |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
@@ -134,7 +134,7 @@ The service offers the possibility to create and manage collections and collecti
 |                      | for descriptive metadata     |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
 
-.. [-] This value is automatically generated. 
+(*) This value is automatically generated. 
 
 - Collection Item: In order to create a new collection item, the following attributes are expected to be given by the user:
 
@@ -174,12 +174,12 @@ The service offers the possibility to create and manage collections and collecti
 | index         | the position of the item in  | optional            | 0             |
 |               | the collection               |                     |               |
 +---------------+------------------------------+---------------------+---------------+
-| dateAdded     | the date the item was added  | [*]_                | –             |
+| dateAdded     | the date the item was added  | (*)                 | –             |
 |               | to the collection            |                     |               |
 +---------------+------------------------------+---------------------+---------------+
-| dateUpdated   | URI of the data type of this | [*]_                | –             |
+| dateUpdated   | URI of the data type of this | (*)                 | –             |
 |               | the date the item’s metadata |                     |               |
 |               | were last updated            |                     |               |
 +---------------+------------------------------+---------------------+---------------+
 
-.. [*] This value is automatically generated.
+(*) This value is automatically generated.
