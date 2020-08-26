@@ -44,7 +44,7 @@ The table below includes the different service-level features this implementatio
 The service offers the possibility to create and manage collections and collection items. The figure below includes a data model of a collection, collection item and the relationship between them.
 
 .. figure:: images/collectionDataModel.png
-   :width: 700
+   :width: 650
    :align: center
    
    Figure 2: Collections and collection items
