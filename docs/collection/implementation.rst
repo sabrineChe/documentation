@@ -49,11 +49,7 @@ The service offers the possibility to create and manage collections and collecti
    
    Figure 2: Collections and collection items
 
-""""""""""
-Collection
-""""""""""
-
-It includes the following attributes:
+- Collection: includes the following attributes:
 
 +-----------------+------------------------------+---------------------+---------------+
 | Property Name   | Description                  | Mandatory/Optional  | Default Value |
@@ -70,7 +66,7 @@ It includes the following attributes:
 | properties      | collection                   |                     |               |
 +-----------------+------------------------------+---------------------+---------------+
 
-i. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
+1. Collection capabilities: comprise the following attributes, which determine the possible actions on a collection.
 
 +---------------------+------------------------------+---------------------+---------------+
 | Property Name       | Description                  | Mandatory/Optional  | Default Value |
@@ -106,15 +102,15 @@ i. Collection capabilities: comprise the following attributes, which determine t
 
 .. [*] This value is automatically generated. 
 
-ii. Collection properties: include collection’s metadata.
+2. Collection properties: include collection’s metadata.
 
 +----------------------+------------------------------+---------------------+---------------+
 | Property Name        | Description                  | Mandatory/Optional  | Default Value |
 +======================+==============================+=====================+===============+
-| id                   | identifier of the collection | [*]_                | –             | 
+| id                   | identifier of the collection | [-]_                | –             | 
 |                      | properties                   |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
-| dateCreated          | the date the collection was  | [*]_                | –             |
+| dateCreated          | the date the collection was  | [-]_                | –             |
 |                      | created                      |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
 | ownership            | identifies the owner of the  | optional            | null          |
@@ -130,7 +126,7 @@ ii. Collection properties: include collection’s metadata.
 |                      | collection has access        |                     |               |
 |                      | restrictions                 |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
-| memberOf             | includes a list of collection| [*]_                | –             |
+| memberOf             | includes a list of collection| [-]_                | –             |
 |                      | identifiers to which this    |                     |               |
 |                      | collection belongs           |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
@@ -138,9 +134,9 @@ ii. Collection properties: include collection’s metadata.
 |                      | for descriptive metadata     |                     |               |
 +----------------------+------------------------------+---------------------+---------------+
 
-.. [*] This value is automatically generated. 
+.. [-] This value is automatically generated. 
 
-B. Collection Item: In order to create a new collection item, the following attributes are expected to be given by the user:
+- Collection Item: In order to create a new collection item, the following attributes are expected to be given by the user:
 
 +-----------------+------------------------------+---------------------+---------------+
 | Property Name   | Description                  | Mandatory/Optional  | Default Value |
@@ -167,7 +163,7 @@ B. Collection Item: In order to create a new collection item, the following attr
 | mappings        | Collection item metadata     | optional            | true          |
 +-----------------+------------------------------+---------------------+---------------+
 
-i. Mappings: include the following attributes:
+1. Mappings: include the following attributes:
 
 +---------------+------------------------------+---------------------+---------------+
 | Property Name | Description                  | Mandatory/Optional  | Default Value |
