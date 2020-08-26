@@ -21,7 +21,7 @@ is available under http://{hostname}:{port}/static/overview.html. In addition, a
 ++++++++++++++++++++++
 3.2.1 Service Features
 ++++++++++++++++++++++
-The figure below includes the different service-level features this implementation offers.
+The table below includes the different service-level features this implementation offers.
 
 +--------------------------------------+
 | serviceFeatures                      |
