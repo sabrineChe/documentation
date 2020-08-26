@@ -15,8 +15,9 @@ allows to use only components required by a particular use case. This reduced co
 and offers a high level of flexibility for current and future challenges in the field of 
 research data management.
 
+==============
 Collection API
-======================================
+==============
 
 ***************************************
 Version: 1.0
