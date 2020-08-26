@@ -49,7 +49,11 @@ The service offers the possibility to create and manage collections and collecti
    
    Figure 2: Collections and collection items
 
-A. Collection: includes the following attributes:
+""""""""""
+Collection
+""""""""""
+
+It includes the following attributes:
 
 +-----------------+------------------------------+---------------------+---------------+
 | Property Name   | Description                  | Mandatory/Optional  | Default Value |
