@@ -15,12 +15,11 @@ allows to use only components required by a particular use case. This reduced co
 and offers a high level of flexibility for current and future challenges in the field of 
 research data management.
 
-==============
-Collection API
-==============
+============================
+Collection API (Version 1.0)
+============================
 
 ***************************************
-Version: 1.0
 Authors: Sabrine Chelbi, Thomas Jejkal
 ***************************************
 
