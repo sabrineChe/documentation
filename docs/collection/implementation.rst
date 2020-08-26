@@ -9,8 +9,10 @@ implementation. The service contains various REST APIs responsible for interacti
 Moreover, the service offers a graphical web frontend in order to visualize managed collections, collection items and relationships between them. The web frontend 
 is available under http://{hostname}:{port}/static/overview.html. In addition, an intuitive graphical user interface will be developed in the future by SCC.
 
-.. image:: images/architecture.png
-   :width: 600
+.. figure:: images/architecture.png
+   :align: center
+   
+   Figure 1: Collection API architecture
    
 **************
 3.2 Data Model
@@ -41,8 +43,11 @@ The figure below includes the different service-level features this implementati
 +++++++++++++++++++++++
 The service offers the possibility to create and manage collections and collection items. The figure below includes a data model of a collection, collection item and the relationship between them.
 
-.. image:: images/collectionDataModel.png
+.. figure:: images/collectionDataModel.png
    :width: 700
+   :align: center
+   
+   Figure 2: Collections and collection items
 
 A. Collection: includes the following attributes:
 
